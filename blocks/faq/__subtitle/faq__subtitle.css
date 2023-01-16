@@ -1,0 +1,18 @@
+.faq__subtitle {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 268px;
+  width: 100%;
+  line-height: 32px;
+  margin-left: 58px;
+  color: #1B1C1D;
+}
+
+@media screen and (max-width: 425px) {
+  .faq__subtitle {
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+.faq {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1180px) {
+  .faq {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

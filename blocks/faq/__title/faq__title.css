@@ -1,0 +1,25 @@
+.faq__title {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 73.6px;
+  letter-spacing: 1px;
+  max-width: 515px;
+  width: 100%;
+  color: #1B1C1D;
+}
+
+@media screen and (max-width: 650px) {
+  .faq__title {
+    font-size: 50px;
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .faq__title {
+    max-width: 300px;
+    font-size: 38px;
+    line-height: 50px;
+  }
+}

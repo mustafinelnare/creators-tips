@@ -1,0 +1,17 @@
+.faq__line {
+  max-width: 549px;
+  width: 100%;
+  color: #43423D;
+}
+
+@media screen and (max-width: 650px) {
+  .faq__line {
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .faq__line {
+    max-width: 280px;
+  }
+}

@@ -1,0 +1,20 @@
+.faq__place {
+  width: 600px;
+  height: 346px;
+  background: #F5F3EA;
+  border-radius: 12px;
+  border: 2px solid #1B1C1D;
+  box-shadow: 2px 2px #1B1C1D;
+}
+
+@media screen and (max-width: 650px) {
+  .faq__place {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .faq__place {
+    max-width: 300px;
+  }
+}
