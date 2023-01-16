@@ -55,3 +55,13 @@
 @import url(../blocks/community/__image/community__image.css);
 @import url(../blocks/icon/icon.css);
 @import url(../blocks/icon/__image/icon__image.css);
+@import url(../blocks/contents/contents.css);
+@import url(../blocks/contents/__title/contents__title.css);
+@import url(../blocks/contents/__text/contents__text.css);
+@import url(../blocks/contents/__type/contents__type.css);
+@import url(../blocks/contents/__font/contents__font.css);
+@import url(../blocks/contents/__place/contents__place.css);
+@import url(../blocks/contents/__places/contents__places.css);
+@import url(../blocks/contents/__date/contents__date.css);
+@import url(../blocks/contents/__subtitle/contents__subtitle.css);
+@import url(../blocks/contents/__line/contents__line.css);

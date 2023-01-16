@@ -1,0 +1,21 @@
+.contents__type {
+  max-width: 109px;
+  border-radius: 8px;
+  border: 2px solid rgb(27, 28, 29, 20%);
+  margin-right: 12px;
+}
+
+.contents__type:last-child {
+  margin-right: 0;
+}
+
+.contents__type:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 425px) {
+  .contents__type {
+    margin-bottom: 5px;
+  }
+}

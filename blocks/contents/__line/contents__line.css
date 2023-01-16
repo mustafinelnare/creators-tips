@@ -1,0 +1,23 @@
+.contents__line {
+  max-width: 331px;
+  color: #1B1C1D;
+  margin: 24px auto 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .contents__line {
+    max-width: 290px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .contents__line {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .contents__line {
+    max-width: 290px;
+  }
+}

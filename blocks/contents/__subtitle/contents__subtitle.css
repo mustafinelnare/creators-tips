@@ -1,0 +1,36 @@
+.contents__subtitle {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #1B1C1D;
+  margin: 7px auto 0 24px;
+}
+
+@media screen and (max-width: 1200px) {
+  .contents__subtitle {
+    font-size: 22px;
+    line-height: 29px;
+    max-width: 290px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .contents__subtitle {
+    font-size: 22px;
+    line-height: 29px;
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .contents__subtitle {
+    max-width: 290px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contents__subtitle {
+    margin: 7px auto 0 5px;
+  }
+}

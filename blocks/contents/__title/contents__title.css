@@ -1,0 +1,26 @@
+.contents__title {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 46px;
+  letter-spacing: 0.6px;
+  max-width: 794px;
+  width: 100%;
+  margin: 41px auto 0 40px;
+  color: #1B1C1D;
+}
+
+@media screen and (max-width: 768px) {
+  .contents__title {
+    margin: 41px auto 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contents__title {
+    max-width: 280px;
+    margin: 41px auto 0;
+    font-size: 34px;
+    line-height: 40px;
+  }
+}

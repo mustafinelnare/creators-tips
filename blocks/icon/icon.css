@@ -5,3 +5,9 @@
   border-top: 2px solid #000000;
   border-bottom:  2px solid #000000;
 }
+
+@media screen and (max-width: 425px) {
+  .icon {
+    height: 165px;
+  }
+}

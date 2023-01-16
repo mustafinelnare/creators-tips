@@ -1,0 +1,27 @@
+.contents__date {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16.8px;
+  letter-spacing: 0.6px;
+  margin: 233px auto 0 24px;
+  color: #43423D;
+}
+
+@media screen and (max-width: 1080px) {
+  .contents__date {
+    margin: 130px auto 0 24px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .contents__date {
+    margin: 220px auto 0 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contents__date {
+    margin: 220px auto 0 5px;
+  }
+}

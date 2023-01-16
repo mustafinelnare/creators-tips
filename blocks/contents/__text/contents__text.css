@@ -1,0 +1,13 @@
+.contents__text {
+  display: flex;
+  flex-direction: row;
+  max-width: 450px;
+  margin: 41px auto 0 40px;
+}
+
+@media screen and (max-width: 425px) {
+  .contents__text {
+    margin: 41px auto 0;
+    flex-wrap: wrap;
+  }
+}

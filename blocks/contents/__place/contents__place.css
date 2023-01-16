@@ -1,0 +1,14 @@
+.contents__place {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 36px auto 0;
+}
+
+@media screen and (max-width: 980px) {
+  .contents__place {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
