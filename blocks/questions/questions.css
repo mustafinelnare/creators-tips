@@ -1,0 +1,15 @@
+.questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #F5F3EA;
+  padding-bottom: 65px;
+}
+
+@media screen and (max-width: 768px) {
+  .questions {
+    display: flex;
+    flex-direction: column;
+  }
+}

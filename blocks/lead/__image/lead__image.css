@@ -1,0 +1,15 @@
+.lead__image {
+  max-width: 310px;
+  max-height: 220px;
+  border-radius: 2px;
+}
+
+.lead__image:last-child {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+  .lead__image {
+    padding: 20px;
+  }
+}

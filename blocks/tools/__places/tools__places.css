@@ -1,0 +1,20 @@
+.tools__places {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  max-height: 736px;
+  height: 100%;
+  background: #A8EBFF;
+  border-radius: 16px 16px 0 0;
+  margin: 46px 40px 0;
+  padding-bottom: 28px;
+}
+
+@media screen and (max-width: 900px) {
+  .tools__places {
+    flex-direction: column;
+    max-height: 1100px;
+  }
+}

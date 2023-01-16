@@ -1,0 +1,22 @@
+.intro__major {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #1B1C1D;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__major {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__major {
+    font-size: 30px;
+    line-height: 40px;
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,9 @@
+.community__text {
+  background: #ffffff;
+}
+
+@media screen and (max-width: 1050px) {
+  .community__text {
+    padding-left: 15px;
+  }
+}

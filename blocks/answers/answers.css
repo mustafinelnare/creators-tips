@@ -1,0 +1,16 @@
+.answers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #F5F3EA;
+  border-top: 2px solid black;
+  padding-bottom: 65px;
+}
+
+@media screen and (max-width: 768px) {
+  .answers {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,26 @@
+.community__subtitle {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 31px;
+  max-width: 690px;
+  width: 100%;
+  margin: 16px auto 0;
+  color: #1B1C1D;
+}
+
+@media screen and (max-width: 768px) {
+  .community__subtitle {
+    max-width: 400px;
+    font-size: 17px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .community__subtitle {
+    max-width: 300px;
+    font-size: 15px;
+    line-height: 27px;
+  }
+}

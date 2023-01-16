@@ -1,0 +1,19 @@
+.section__image {
+  max-width: 600px;
+  max-height: 600px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .section__image {
+    max-width: 500px;
+    max-height: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section__image {
+    max-width: 300px;
+    max-height: 300px;
+}
+}

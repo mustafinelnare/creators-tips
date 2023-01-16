@@ -1,0 +1,10 @@
+.community__image {
+  max-width: 400px;
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .community__image {
+    max-width: 300px;
+  }
+}

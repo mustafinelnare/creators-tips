@@ -1,0 +1,22 @@
+.tools__place {
+  margin-left: 64px;
+}
+
+.tools__place:last-child {
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .tools__place {
+    margin-left: 0;
+  }
+  .tools__place:last-child {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .tools__place:last-child {
+    margin-left: auto;
+  }
+}

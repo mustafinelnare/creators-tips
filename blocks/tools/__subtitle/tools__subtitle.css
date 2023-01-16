@@ -1,0 +1,28 @@
+.tools__subtitle {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 46px;
+  letter-spacing: 0.6px;
+  max-width: 518px;
+  width: 100%;
+  color: #1B1C1D;
+}
+
+@media screen and (max-width: 768px) {
+  .tools__subtitle {
+    max-width: 300px;
+    font-size: 33px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .tools__subtitle {
+    max-width: 225px;
+    font-size: 28px;
+    line-height: 35px;
+    margin: 10px auto 0;
+    padding-left: 10px;
+  }
+}

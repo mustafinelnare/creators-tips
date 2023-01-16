@@ -1,0 +1,17 @@
+.tools__image {
+  max-width: 362px;
+  width: 100%;
+  margin: 24px 10px 0;
+}
+
+@media screen and (max-width: 560px) {
+  .tools__image {
+    max-width: 315px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .tools__image {
+    max-width: 220px;
+  }
+}

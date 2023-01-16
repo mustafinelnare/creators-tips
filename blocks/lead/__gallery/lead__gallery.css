@@ -1,0 +1,15 @@
+.lead__gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto 0 0;
+}
+
+@media screen and (max-width: 630px) {
+  .lead__gallery {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}

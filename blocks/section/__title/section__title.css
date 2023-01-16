@@ -1,0 +1,29 @@
+.section__title {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0.6px;
+  max-width: 527px;
+  width: 100%;
+  margin-left: 40px;
+  color: #1B1C1D;
+}
+
+@media screen and (max-width: 1024px) {
+  .section__title {
+    font-size: 34px;
+    line-height: 40px;
+    max-width: 450px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section__title {
+    font-size: 30px;
+    line-height: 35px;
+    max-width: 300px;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,9 @@
+.button__place_header {
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 425px) {
+  .button__place_header {
+    margin-right: 7px;
+  }
+}

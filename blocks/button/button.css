@@ -1,0 +1,27 @@
+.button {
+  width: 144px;
+  height: 44px;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  background: inherit;
+  box-shadow: 2px 2px 0 #1B1C1D;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 530px) {
+  .button {
+    width: 120px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .button {
+    width: 100px;
+    height: 25px;
+  }
+}

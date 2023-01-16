@@ -1,0 +1,25 @@
+.lead__subtitle {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  max-width: 608px;
+  width: 100%;
+  text-align: center;
+  margin: 33px auto 0;
+  color: #1B1C1D;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    max-width: 400px;
+    font-size: 17px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__subtitle {
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,31 @@
+.description__image {
+  margin-left: 60px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .description__image {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .description__image {
+    max-width: 370px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .description__image {
+    max-width: 270px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .description__image {
+    margin: 0 auto;
+    max-width: 225px;
+  }
+}

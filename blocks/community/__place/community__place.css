@@ -1,0 +1,13 @@
+.community__place {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 48px auto 0;
+}
+
+@media screen and (max-width: 650px) {
+  .community__place {
+    flex-direction: column;
+    margin: 30px auto 0;
+  }
+}

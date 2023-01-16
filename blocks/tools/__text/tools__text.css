@@ -1,0 +1,18 @@
+.tools__text {
+  border: 2px solid #1B1C1D;
+  max-width: 140px;
+  width: 100%;
+  height: 19px;
+  border-radius: 4px;
+  margin: 22px 12px 0 0;
+}
+
+.tools__text:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 560px) {
+  .tools__text:last-child {
+    margin-right: 12px;
+  }
+}

@@ -1,0 +1,28 @@
+.section__subtitle {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  max-width: 425px;
+  width: 100%;
+  margin: auto auto auto 12px;
+  color: #1B1C1D;
+}
+
+@media screen and (max-width: 1024px) {
+  .section__subtitle {
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 390px;
+    margin: auto auto auto 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section__subtitle {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 240px;
+    margin: auto auto auto 8px;
+  }
+}

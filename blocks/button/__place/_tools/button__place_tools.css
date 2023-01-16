@@ -1,0 +1,20 @@
+.button__place_tools {
+  width: 252px;
+  height: 30px;
+  background: #F5F3EA;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  box-shadow: 2px 2px #1B1C1D;
+}
+
+.button__place_tools:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 425px) {
+  .button__place_tools {
+    width: 220px;
+    margin: 15px auto 0;
+  }
+}
