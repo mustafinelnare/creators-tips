@@ -13,3 +13,7 @@
     padding: 20px;
   }
 }
+
+.lead__image:hover {
+  transform: scale(1.05);
+}
