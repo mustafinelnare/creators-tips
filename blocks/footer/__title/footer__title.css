@@ -10,3 +10,9 @@
   margin: 0 auto;
   color: #1B1C1D;
 }
+
+@media screen and (max-width: 425px) {
+  .footer__title {
+    max-width: 300px;
+  }
+}

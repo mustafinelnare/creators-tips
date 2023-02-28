@@ -9,5 +9,7 @@
   .contents__text {
     margin: 41px auto 0;
     flex-wrap: wrap;
+    max-width: 300px;
+    flex-wrap: wrap;
   }
 }

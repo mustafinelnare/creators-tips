@@ -6,6 +6,12 @@
   color: #1B1C1D;
 }
 
+.intro__major:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   .intro__major {
     font-size: 45px;
